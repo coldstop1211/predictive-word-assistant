@@ -37,8 +37,8 @@ public class TrieDisplay extends JPanel implements KeyListener {
         mainPanel = new JPanel(cardLayout);
 
         // Load the background images
-        backgroundTitleImage = new ImageIcon("/Users/ashumittal/Downloads/programs/2024/2025/intro.jpeg").getImage();
-        backgroundSecondaryImage = new ImageIcon("/Users/ashumittal/Downloads/programs/2024/2025/secondarybackground.jpeg").getImage();
+        backgroundTitleImage = new ImageIcon("intro.jpeg").getImage();
+        backgroundSecondaryImage = new ImageIcon("secondarybackground.jpeg").getImage();
 
         createSelectionPanel();
         createTypingPanel();
@@ -66,7 +66,7 @@ public class TrieDisplay extends JPanel implements KeyListener {
         button1.setAlignmentX(Component.CENTER_ALIGNMENT);
         button1.setPreferredSize(new Dimension(300, 50));
         button1.setMaximumSize(new Dimension(300, 50));
-        button1.addActionListener(e -> loadFile("/Users/ashumittal/Downloads/programs/2024/2025/artwar.1b.txt"));
+        button1.addActionListener(e -> loadFile("artwar.1b.txt"));
         selectionPanel.add(Box.createRigidArea(new Dimension(0, 20)));
         selectionPanel.add(button1);
 
@@ -74,7 +74,7 @@ public class TrieDisplay extends JPanel implements KeyListener {
         button2.setAlignmentX(Component.CENTER_ALIGNMENT);
         button2.setPreferredSize(new Dimension(300, 50));
         button2.setMaximumSize(new Dimension(300, 50));
-        button2.addActionListener(e -> loadFile("/Users/ashumittal/Downloads/programs/2024/2025/TheSimilarion.txt"));
+        button2.addActionListener(e -> loadFile("TheSimilarion.txt"));
         selectionPanel.add(Box.createRigidArea(new Dimension(0, 20)));
         selectionPanel.add(button2);
     }
