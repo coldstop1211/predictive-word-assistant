@@ -7,7 +7,6 @@ import java.io.*;
 import java.util.*;
 import java.util.List;
 
-//ashu M & shardul
 //MAKE SURE TO CHANGE THE PATH NAMES (this is due to my computer beign a mac)
 
 @SuppressWarnings("unused")
